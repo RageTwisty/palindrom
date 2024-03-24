@@ -1,0 +1,49 @@
+
+body{
+    background-color: blue;
+}
+.container{
+    width: 90%;
+    max-width: 31.25em;
+    background-color: azure;
+    padding: 4em 3em;
+    border-radius: .5em;
+    box-shadow: 0 2em 3.5em rgba(0,9,50,0.3);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.app-title{
+    color:rgb(255, 136, 0);
+    font-size: 1.6em;
+}
+.input-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    margin: 2em 0 1em 0;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #e2e4ef;
+    color: #172039;
+    padding: 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+}
+button{
+    color: rgb(17, 0, 255);
+}
+p{
+    text-align: center;
+    color: #ffffff;
+}
+.success{
+    background-color: greenyellow;
+    animation: pop 0.4s;
+}
+.error {
+    background-color: crimson;
+    animation: pop 0.4s;
+}
